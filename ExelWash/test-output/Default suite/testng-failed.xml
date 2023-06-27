@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test_MethodsofExcelWash.excelwash_operations">
+        <methods>
+          <include name="chacking_Home_Page_Functionality"/>
+          <include name="enter_user_Login_Details"/>
+          <include name="click_On_Services"/>
+        </methods>
+      </class> <!-- test_MethodsofExcelWash.excelwash_operations -->
+      <class name="pages_of_excelwash.All_Pagesof_ExcelWash">
+        <methods>
+          <include name="Services_Functionality"/>
+          <include name="Sign_up_page_Functionality"/>
+          <include name="login_page_Functionality"/>
+        </methods>
+      </class> <!-- pages_of_excelwash.All_Pagesof_ExcelWash -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
